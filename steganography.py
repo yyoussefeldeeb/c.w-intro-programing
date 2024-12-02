@@ -63,7 +63,7 @@ if mode == "1":
     # hide message mode
     input_bmp = input("enter the path to your BMP file")
     output_bmp = input("enter the path to save your output as BMP file ")
-    secret_message = input("enter your secret message ")
+    secret_message = input("enter your secret message: ")
     hide_message_in_bmp(input_bmp, output_bmp, secret_message)
 
 elif mode == "2":
